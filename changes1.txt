@@ -1,0 +1,8 @@
+Implemented Observer design pattern: TraderObserver.java, StockExchangeObservable.java are the added changes to the api and DefaultTraderObserver.java is the implementation. I created a new stub class StubTraderObserver to help me with the test cases. I altered the stockExchangeAndTraderTest to test if a Trader Observer gets updated when a trade happens.
+
+Reason: Because ohterwise the system does not allow traders to receive information about trades.
+
+
+Trade-offs:
+
+Did not notice any. 

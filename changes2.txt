@@ -1,0 +1,9 @@
+
+
+Reason: 
+The implementation of Default/Random traders have very complex constructors. It is far more easier to have a more clear way of creating new objects. I used Builder Design pattern because it separates the construction of a complex object from its representation
+
+Trade-offs:
+
+Builder design pattern basicaly mimics the "new" keyword. It creates new object builder which then creates another object the trader. Therefore performance may suffer from that. But Builder pattern makes it much more easier to create new traders. 
+
